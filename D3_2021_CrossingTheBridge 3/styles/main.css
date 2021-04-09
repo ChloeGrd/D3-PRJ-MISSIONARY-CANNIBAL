@@ -1,0 +1,159 @@
+body{
+  margin:0px;
+}
+.text-center{
+  text-align: center;
+}
+.bgjungle
+{
+  background-image: url("../images/JUNGLE.png");
+  width: auto;
+  height:auto;
+}
+.bgriver{
+  background-image:url("../images/RIVIERE.png");
+  width: auto;
+  height:auto;
+  background-position: top center;
+  margin-top: 0px;
+}
+
+.fontPiedraJungle{
+margin-top: 180px;
+font-family: 'Piedra', cursive;;
+font-style: normal;
+font-weight: normal;
+font-size: 200px;
+text-align: center;
+color: #000000;
+}
+
+.fontPiedraPlay{
+/* Play ! */
+font-family: 'Piedra', cursive;;
+font-style: normal;
+font-weight: normal;
+font-size: 144px;
+line-height: 187px;
+color: #FFFFFF;
+}
+
+.fontNTRRules{
+  font-family: 'Piedra', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.fontPiedraRules{
+font-family: 'Piedra', cursive;;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+color: #000000;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.buttonplay{
+/* Rectangle 1 */
+width: 420px;
+height: 160px;
+text-align: center;
+background: #696969;
+border-radius: 62px;
+}
+
+.buttonRules{
+/* Rectangle 2 */
+width: 731px;
+height: 76px;
+text-align: center;
+background: #696969;
+border-radius: 62px;
+}
+
+.container{
+  display flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width : 1400px;
+  height: 700px;
+  background: #FFFFFF;
+  border-radius: 62px;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul {
+list-style-type: none;
+}
+
+.liborder  {
+border: 1px solid #efefef;
+width: 5vw;
+height: 7vw;
+}
+
+
+aside {
+  background: #c2c2c2;
+  flex-basis: 320px;
+}
+
+.etat {
+  height: 650px;
+  display: flex;
+  justify-content: space-between;
+  background-size: cover;
+  flex-grow: 1;
+}
+
+
+
+.rivegauche{
+  display: flex;
+  align-items: flex-start;
+}
+
+.rivedroight {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 30px;
+}
+
+img {
+width: 100%;
+}
+
+span{
+  display: inline-block;
+}
+
+.li2images {
+border: 1px solid #efefef;
+width: 10vw;
+height: 5vw;
+}
+
+.cartouchechoix{
+background: #696969;
+border-radius: 62px;
+width:auto;
+height: 150px;
+}
+
+.ulcenter{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
