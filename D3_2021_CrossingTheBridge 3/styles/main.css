@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
-
 body{
   margin:0px;
 }
@@ -17,14 +15,15 @@ body{
   width: auto;
   height:auto;
   background-position: top center;
-  background-size: cover;
   margin-top: 0px;
 }
 
 .fontPiedraJungle{
+margin-top: 180px;
 font-family: 'Piedra', cursive;;
 font-style: normal;
 font-weight: normal;
+font-size: 200px;
 text-align: center;
 color: #000000;
 }
